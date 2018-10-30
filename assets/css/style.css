@@ -1,0 +1,95 @@
+html{background-color:#000000}
+
+.logo{
+    height:120px;
+    margin-top:20px; 
+    text-align: center;
+}
+
+.logo img{
+    height:100px;
+    width:100px;
+}
+
+.logo img:hover{
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 1.8s ease-in-out 0s;
+}
+
+.description{
+    height:80px; 
+    text-align: center;
+    font-family:Bangers, cursive;
+}
+
+.title{
+    font-size:28px; 
+    color:rgb(50,124,198);
+}
+
+.subtitle{
+    font-size:16px; 
+    margin-top: -20px; 
+    color:rgb(145, 203, 241);
+}
+
+.label{
+    color:rgb(50,124,198);
+    font-family:Bangers, cursive;
+    font-size:28px;
+}
+
+.label label{
+    margin:15px 0px 0px;
+    margin-left: 14px;
+}
+
+.box{
+    height: 153px;  
+    background-color:rgba(151, 231, 231, 0.075); 
+    text-align: center;
+    margin-top: -10px;
+    border: 1.0px solid rgb(146, 167, 180);
+    max-width: 200px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.form{
+    color:rgb(50,124,198);
+    font-family:Bangers, cursive;
+    font-size:28px; 
+}
+
+.form input{
+    height:35px; 
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 90%;
+    font-size: 17px;
+    font-family: "Averia Serif Libre";
+    border: 1.0px solid rgb(50,124,198);
+    background-color: #000000;
+    color: white;
+}
+
+.form button{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.none{
+    display: none;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    font-family: monospace;
+}

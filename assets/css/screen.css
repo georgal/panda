@@ -1,0 +1,32 @@
+.fakeScreen {
+  background-color: #151515;
+  box-sizing: border-box;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 250px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.screen {
+  color: #9CD9F0;
+  text-align: left;
+  font-size: 14px;
+  font-family: monospace;
+  white-space: normal;
+  overflow: hidden;
+  
+}
+
+.cursor1 {
+    color: #fff;
+    font-weight: bold;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+    50% { opacity: 0; }
+  }
